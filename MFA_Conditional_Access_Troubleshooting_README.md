@@ -40,9 +40,7 @@ When the user attempted to sign in **remotely**, they received the following err
 ⚠️ **Remote users should not be members of this group**
 
 ### 📸 Screenshot – MFA Exclusion Group Overview
-_Add screenshot here_
-
-images/mfa-exclusion-group-overview.png
+<img width="1228" height="613" alt="7" src="https://github.com/user-attachments/assets/329ed676-4ed4-48aa-9e34-ac6a2211d031" />
 
 ---
 
@@ -54,9 +52,8 @@ This caused a conflict because:
 - The group is restricted by location-based Conditional Access policies
 
 ### 📸 Screenshot – Group Members
-_Add screenshot here_
 
-images/mfa-exclusion-group-members.png
+<img width="1388" height="581" alt="5" src="https://github.com/user-attachments/assets/057d6991-89ee-45db-b3e2-bc639da568ef" />
 
 ---
 
@@ -66,9 +63,7 @@ The user received the following error message during login:
 > **You cannot access this right now**
 
 ### 📸 Screenshot – Access Error Message
-_Add screenshot here_
-
-images/access-block-error.png
+<img width="463" height="430" alt="3" src="https://github.com/user-attachments/assets/d9e158e9-0fc0-448b-ad03-422077772155" />
 
 ---
 
@@ -80,9 +75,9 @@ images/access-block-error.png
 - Condition: User outside approved facility locations
 
 ### 📸 Screenshot – Conditional Access Policies
-_Add screenshot here_
 
-images/conditional-access-policies.png
+<img width="768" height="747" alt="1" src="https://github.com/user-attachments/assets/f972500e-7ef1-437f-81c9-3d19b52a80a8" />
+
 
 ---
 
@@ -93,9 +88,8 @@ Sign-in logs confirmed:
 - Location outside named locations
 
 ### 📸 Screenshot – Sign-In Logs
-_Add screenshot here_
+<img width="1198" height="520" alt="2" src="https://github.com/user-attachments/assets/850a11df-8a42-49fb-82a7-74c2feee86dc" />
 
-images/sign-in-logs.png
 
 ---
 
@@ -114,9 +108,8 @@ A remote user was mistakenly added to an **on-site–only MFA exclusion group**,
 - Security posture maintained
 
 ### 📸 Screenshot – User Removed from Group
-_Add screenshot here_
+<img width="1400" height="691" alt="6" src="https://github.com/user-attachments/assets/6d0ca0ef-a4d2-4efd-a8de-060d92bc198a" />
 
-images/user-removed-from-group.png
 
 ---
 
@@ -124,12 +117,6 @@ images/user-removed-from-group.png
 - MFA exclusion does not override Conditional Access
 - Group membership must align with user role and location
 - Removing access can be the correct secure fix
-- Sign-in logs are essential for IAM troubleshooting
+- Sign-in logs are essential for troubleshooting identity and access management (IAM) issues
 
 ---
-
-## 📁 Suggested Repo Structure
-MFA-Conditional-Access-Troubleshooting/
-│
-├── README.md
-└── images/
